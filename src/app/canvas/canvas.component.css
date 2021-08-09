@@ -33,14 +33,6 @@
   min-height: 40px;
 }
 
-.project {
-  display: flex;
-  margin-left: 5px;
-  padding: 2px;
-  border: 1px solid #000000;
-  border-radius: 5px;
-}
-
 .circles-container.container-100 {
   width: 280px;
 }
@@ -85,7 +77,7 @@
 }
 
 .item-style {
-  display: inline-block;
+  display: flex;
   padding: 10px 20px;
   margin: 2px 2px;
   cursor: pointer;
@@ -119,3 +111,7 @@
   background: rgb(182, 182, 182);
 }
 
+.project {
+  padding: 1px 5px;
+  background: rgb(109, 177, 71);
+}

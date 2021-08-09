@@ -28,7 +28,7 @@
     <input class="item-style button-save" type="text" [(ngModel)]="projectName" placeholder="Input the name for canvas" />
     <div class="projects-container">
       <div *ngFor="let project of projectList"
-           class="project"
+           class="item-style project"
            (click)="selectProject(project)">
         <p>Project: {{project.name}}</p>
       </div>
