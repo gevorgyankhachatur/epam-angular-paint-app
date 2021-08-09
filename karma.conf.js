@@ -25,7 +25,7 @@ module.exports = function (config) {
       suppressAll: true // removes the duplicated traces
     },
     coverageReporter: {
-      dir: require('path').join(__dirname, './coverage/epam-angular-paint-app'),
+      dir: require('path').join(__dirname, './coverage/painting'),
       subdir: '.',
       reporters: [
         { type: 'html' },
